@@ -1,0 +1,68 @@
+.site-header{
+   position: fixed;
+	left : 0px;
+	right : 0px;
+	height: 80px;
+	width = 100%;
+	background-color: white;
+	z-index: 100;
+}
+
+.div-logo{
+	height: 100px;
+	text-align: center;
+	margin: 10px;
+	float: left;
+	padding-left: 30px;
+}
+.c-nav{
+	float :right;
+	height: 100%;
+}
+
+.c-nav a{
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	float : right;
+	padding-right: 30px;
+	padding-top:10%;
+	display: inline-block;
+	color: grey;
+	
+}
+.back{
+	background-image: url("background-layer.png");
+	height:600px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+.c-nav a:hover
+{
+	color: #139139;
+}
+
+.about{
+	width: 100%;
+	font-family: sans-serif;
+}
+
+.card{
+	width: 49.5%;
+	padding: .01%;
+	height: 100px;
+	float:left;
+	text-align: center;
+	display: inline;
+}
+.about h1{
+    text-align: center;
+    }
+
+.about p{
+	text-align: center;
+	margin: .5%;
+	padding: .2%;
+
+}
