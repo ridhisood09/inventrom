@@ -1,39 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Inventrom</title>
-	<link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body >
-<div class="Container">
-  <header class = "site-header">
-  	 <div class="div-logo">
-  	 	<img src="logo.png">
-  	 </div>
-  	 <nav class="c-nav">
-      <a href="">Contact</a> 
-      <a href="">Awards</a>    
-      <a href="">About</a>
-  	 </nav>
-  </header>
-  <div class = "back">
-    <p>ienuyfb</p>
-  </div>
-  <div class = "about">
-  <h1 >About Us</h1>
-  <p> Bolt IoT platform gives you the capability to control your devices and collect data from IoT devices safely and securely no matter where you are. </p>
-    <div class= "card">
-    <img src="about_us_vision.png">
-    <h3>Our vision</h3>
-    <p> An easy interface to quickly connect your hardware to cloud over GPIO, UART, and ADC. </p>
-  </div>
-  <div class= "card" id = "mission">
-    <img src="abous_us_mission.png">
-    <h3>Our mission</h3>
-    <p> Bolt has built-in safeguards to secure all user data from unwanted third-party intrusions and hacks.</p>
-  </div>
-</div>
+
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="UTF-8">
+   <title>Inventrom</title>
+ <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="styles.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><img src="images/logo.png" alt="inventrom-logo"></div>
+      <ul class="menu">
+        
+        <li><a href="#About">About</a></li>
+        <li><a href="#Awards">Awards</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <section id="intro" style="background-image: url(images/background-layer.png);">
+
+    <div class="intro-text">
+        <p>Bolt is an Internet of Things platform for enterprise ready <br>IoT Products and Solutions</p>
+        
+    </div>
+    
+  </section>
+  
+  <section id="About">
+    <div class = "about">
+        <h1 class="about-heading">About Us</h1>
+        <p>We are an award-winning IoT startup. Our team has an extensive experience in enterprise IoT projects. Before working on Bolt IoT platform
+            we have <br> been strategic IoT consultants to various Fortune 500 companies.
+        </p>
+          <div class= "vision-card">
+          <img class="vision-image" src="images/about_us_vision.png">
+          <h3>Our vision</h3>
+          <p> An easy interface to quickly connect your hardware to cloud over GPIO, UART, and ADC. </p>
+        </div>
+        <div class= "mission-card">
+          <img class="mission-image" src="images/abous_us_mission.png">
+          <h3>Our mission</h3>
+          <p> Bolt has built-in safeguards to secure all user data from unwanted third-party intrusions and hacks.</p>
+        </div>
+      </div>
+  </section>
+  <section id="Awards">Awards Section</section>
+  <section id="Contact">Contact Section</section>
+  
+  <div class="button">
+    <a href="#Home"><i class="fas fa-arrow-up"></i></a>
   </div>
 </body>
 </html>
